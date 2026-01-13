@@ -1,3 +1,7 @@
+---
+title: Sujata Bora vs Coal India Limited - Supreme Court Judgment
+layout: default   # optional – or leave out if you don't have custom layouts
+---
 2026 INSC 53
 
 ```
