@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SCI Judgments – CiteCase</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
+
   <script>
     window.$docsify = {
-      name: 'CiteCase SCI',
+      name: 'Supreme Court of India Cases',
       repo: 'citecase/sci',
-      loadSidebar: false,
-      subMaxLevel: 2,
-      // SEARCH PLUGIN CONFIG
-      search: 'auto', 
-      search: {
-        maxAge: 86400000,
-        paths: 'auto',
-        placeholder: 'Search judgments...',
-        noData: 'No results!',
-        depth: 6
-      }
+      search: 'auto',               // enables search
+      loadSidebar: true,
+      subMaxLevel: 3
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Docsify -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 </body>
 </html>
